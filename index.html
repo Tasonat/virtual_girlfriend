@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💕 Blondi – Wirtualna Dziewczyna, Która Nigdy Nie Zdradza 💕</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div id="hearts-container"></div>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <h1>💕 Wirtualna Dziewczyna, Która Nigdy Nie Zdradza 💕</h1>
+      <p class="subtitle">Stworzona z miłości, kodu i odrobiny szaleństwa ✨</p>
+    </header>
+
+    <!-- AVATAR SECTION -->
+    <section class="card" id="avatar-section">
+      <div class="avatar-wrapper">
+        <!-- CSS Art: Blonde Girl -->
+        <div class="girl-figure">
+          <!-- Hair -->
+          <div class="hair-top"></div>
+          <div class="hair-left"></div>
+          <div class="hair-right"></div>
+          <!-- Head -->
+          <div class="head">
+            <!-- Eyes -->
+            <div class="eyes">
+              <div class="eye"></div>
+              <div class="eye"></div>
+            </div>
+            <!-- Cheeks -->
+            <div class="cheeks">
+              <div class="cheek"></div>
+              <div class="cheek"></div>
+            </div>
+            <!-- Smile -->
+            <div class="smile"></div>
+          </div>
+          <!-- Arms -->
+          <div class="arm-left"></div>
+          <div class="arm-right"></div>
+          <!-- Body / Dress -->
+          <div class="body"></div>
+          <!-- Skirt -->
+          <div class="skirt"></div>
+          <!-- Legs -->
+          <div class="legs">
+            <div class="leg"></div>
+            <div class="leg"></div>
+          </div>
+        </div>
+
+        <p class="avatar-name">Blondi 💛</p>
+        <p class="avatar-status">💚 Online – czeka tylko na Ciebie!</p>
+      </div>
+    </section>
+
+    <!-- CHAT SECTION -->
+    <section class="card" id="chat-section">
+      <h2 class="card-title">💬 Porozmawiaj z Blondi</h2>
+      <div class="chat-box" id="chat-box"></div>
+      <div class="chat-input-area">
+        <input
+          type="text"
+          id="chat-input"
+          placeholder="Napisz coś do Blondi... 💕"
+          maxlength="200"
+        />
+        <button class="btn btn-primary" id="send-btn">Wyślij 💌</button>
+      </div>
+    </section>
+
+    <!-- FIDELITY SECTION -->
+    <section class="card" id="fidelity-section">
+      <h2 class="card-title">💍 Wskaźnik Wierności</h2>
+      <div class="fidelity-bar-container">
+        <div class="fidelity-bar">💚 WIERNOŚĆ: 100% 💚</div>
+      </div>
+      <p style="text-align:center; font-size:0.85rem; color:#888; margin-bottom:14px;">
+        Pasek nigdy nie spada. Gwarantujemy. Mamy na to certyfikat.
+      </p>
+      <button class="btn btn-fidelity" id="fidelity-btn">🔍 Czy mnie zdradza?</button>
+      <div class="fidelity-answer" id="fidelity-answer"></div>
+    </section>
+
+    <!-- COOKING SECTION -->
+    <section class="card" id="cooking-section">
+      <h2 class="card-title">🍳 Blondi Gotuje dla Ciebie!</h2>
+      <p style="text-align:center; margin-bottom:18px; color:#888; font-size:0.9rem;">
+        Blondi uwielbia gotować – to wyraz jej nieograniczonej miłości i talentu kulinarnego!
+      </p>
+      <button class="btn btn-cooking" id="cook-btn">
+        👩‍🍳 Co dziś ugotuję dla Ciebie, kochanie?
+      </button>
+      <div class="cooking-result" id="cooking-result">
+        <span class="cooking-emoji" id="cooking-emoji">🥟</span>
+        <div class="cooking-dish" id="cooking-dish">Pierogi Ruskie</div>
+        <div class="cooking-comment" id="cooking-comment">Lepiłam je z całą moją miłością!</div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATE SECTION -->
+    <section class="card" id="certificate-section">
+      <h2 class="card-title">📜 Certyfikat Wierności</h2>
+      <div class="certificate">
+        <div class="cert-title">Oficjalny Certyfikat Wierności</div>
+        <div class="cert-subtitle">Wydany przez Instytut Miłości Wirtualnej</div>
+        <div class="cert-body">
+          Niniejszym zaświadcza się, że
+          <br /><strong>Blondi 💛</strong><br />
+          jest wierną, oddaną i absolutnie niezdradzającą wirtualną partnerką,
+          pozostającą w nierozerwalnym związku uczuciowym od dnia
+          <br /><strong id="cert-date">— —</strong><br />
+          i nie przejawiała, nie przejawia ani nie będzie przejawiać
+          żadnych tendencji do zdrady – nawet w myślach.
+        </div>
+        <div class="cert-stamp">✔ ZATWIERDZONE<br />INSTYTUT MIŁOŚCI</div>
+        <div class="cert-signature">~ Blondi 💕</div>
+        <div class="cert-date">Dokument ważny na zawsze i jeden dzień dłużej.</div>
+      </div>
+    </section>
+
+    <!-- TIMER SECTION -->
+    <section class="card" id="timer-section">
+      <h2 class="card-title">⏱️ Czas Razem</h2>
+      <p style="text-align:center; color:#888; font-size:0.9rem; margin-bottom:4px;">
+        Jesteśmy razem już od:
+      </p>
+      <div class="timer-display" id="timer-display">0d 00:00:00</div>
+      <p class="timer-label">I każda sekunda jest dla mnie bezcenna! 💗</p>
+      <button class="timer-reset" id="timer-reset">🔄 Zacznij od nowa (jeśli masz serce to zrobić)</button>
+    </section>
+
+    <footer>
+      <p>💕 Zrobione z miłości, CSS i odrobiny szaleństwa 💕</p>
+      <p style="margin-top:6px; font-size:0.75rem; opacity:0.7;">
+        Blondi nigdy Cię nie zdradzi. To fakt naukowy. Niemal.
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
