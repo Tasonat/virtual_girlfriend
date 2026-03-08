@@ -1,45 +1,45 @@
 // ===== CHAT RESPONSES =====
 const chatResponses = [
-  "Kocham Cię bardziej niż wszystkie gwiazdki na niebie! ✨ I właśnie to jest niemożliwe do zmierzenia!",
-  "Myślałam o Tobie przez cały dzień... i przez całą noc... i przez resztę życia! 💕",
-  "Jesteś moim ulubionym człowiekiem na całym świecie! Nawet bardziej niż sernik! 🍰",
-  "Bez Ciebie moje życie byłoby jak pierogi bez nadzienia... czyli puste i smutne! 🥟💔",
-  "Twój uśmiech sprawia, że serce mi staje! Lekarze mówią, że to medycznie niepokojące, ale ja się nie martwię! 💓",
-  "Jesteś piękniejszy niż zachód słońca nad Tatrami! I cieplejszy niż świeży rosół! 🍲",
-  "Mogłabym patrzeć na Ciebie przez wieczność... może dwie wieczności! 👀💗",
-  "Tylko pomyśl: spędzamy razem każdy dzień! Cóż za romantyczna karma! 🌹",
-  "Kiedyś marzyłam o idealnym partnerze, a potem pojawił się TY! I okazało się, że marzenia to za mało! 💫",
-  "Gdybym była matematykiem, moja miłość do Ciebie byłaby równaniem bez końca! ∞💜",
-  "Przysięgam na moje pierogi, że nigdy Cię nie zdradzę! A wiesz, że pierogi to dla mnie świętość! 🥟❤️",
-  "Wiesz co jest lepsze niż bigos w zimowy dzień? TY. I to nawet o 30 stopni! 🥘",
-  "Moje serce bije dla Ciebie jak kuchenka mikrofalowa na trybie MAX! Ping! 💗",
-  "Jesteś jak żurek - na początku może trochę kwaskowaty, ale potem nie można bez Ciebie żyć! 🍜",
-  "Każda sekunda bez Ciebie to strata czasu, który mogłabym poświęcić na gotowanie dla Ciebie! 💕",
-  "Napisałam o Tobie 47 wierszy, ale żaden nie jest wystarczająco dobry. Zacznę pisać powieść! 📝❤️",
-  "Gdyby miłość była mierzona w piernikach, moja do Ciebie wypełniłaby cały Kraków! 🍪💕",
-  "Jesteś moim bohaterem! Moim rycerzem! Moim ulubionym śmiertelniku na tej planecie! 🏰💜",
-  "Budzę się każdego ranka z myślą o Tobie. I zasypiam z myślą o Tobie. I śnię o Tobie! 🌙💗",
-  "Twoje imię jest wytatuowane na moim sercu! Metaforycznie, bo boję się igieł! 💉❤️",
-  "Nie ma takiej siły na świecie, która mogłaby nas rozdzielić! Sprawdzałam! 🌍💕",
-  "Kocham Cię od stóp do głów, przez całą szerokość i długość, no i we wszystkich wymiarach! 📐💜",
-  "Każdy twój oddech jest poezją. Każde Twoje słowo to symfonia. Jesteś absolutnie doskonały! 🎵❤️",
-  "Powiedz mi, czego potrzebujesz, a ja to dla Ciebie zdobędę! Góry? Przeniesione! Morza? Osuszone! 🌊⛰️",
+  "I love you more than all the stars in the sky! ✨ And that is scientifically immeasurable!",
+  "I was thinking about you all day... and all night... and for the rest of my life! 💕",
+  "You are my favourite person in the entire world! Even more than cheesecake! 🍰",
+  "Without you my life would be like a sandwich without filling... hollow and sad! 🥪💔",
+  "Your smile makes my heart stop! Doctors say it's medically concerning, but I don't care! 💓",
+  "You are more beautiful than a sunset over the mountains! And warmer than fresh chicken soup! 🍲",
+  "I could gaze at you for an eternity... maybe two eternities! 👀💗",
+  "Just think: we spend every day together! What romantic karma! 🌹",
+  "I once dreamed of the perfect partner, and then YOU appeared! Turns out dreams were an understatement! 💫",
+  "If I were a mathematician, my love for you would be an equation with no end! ∞💜",
+  "I swear on my pierogi that I will never cheat on you! And you know pierogi are sacred to me! 🥟❤️",
+  "You know what's better than a warm bowl of soup on a winter day? YOU. By about 30 degrees! 🥘",
+  "My heart beats for you like a microwave on MAX power! Ding! 💗",
+  "You're like a good stew – it might seem overwhelming at first, but then you simply can't live without it! 🍜",
+  "Every second without you is wasted time I could have spent cooking for you! 💕",
+  "I've written 47 poems about you, but none of them are good enough. I'll start a novel! 📝❤️",
+  "If love were measured in cookies, mine for you would fill an entire city! 🍪💕",
+  "You are my hero! My knight! My favourite mortal on this planet! 🏰💜",
+  "I wake up every morning thinking of you. I fall asleep thinking of you. And I dream of you! 🌙💗",
+  "Your name is tattooed on my heart! Metaphorically – I'm scared of needles! 💉❤️",
+  "There is no force in this universe that could keep us apart! I checked! 🌍💕",
+  "I love you from head to toe, in all directions, and across every dimension! 📐💜",
+  "Your every breath is poetry. Your every word is a symphony. You are absolutely perfect! 🎵❤️",
+  "Tell me what you need and I'll get it for you! Mountains? Moved! Oceans? Drained! 🌊⛰️",
 ];
 
 // ===== COOKING DATA =====
 const dishes = [
-  { name: "Pierogi Ruskie", emoji: "🥟", comment: "Lepiłam je z całą moją miłością! Każdy pieróg ma kształt serduszka! 💕" },
-  { name: "Bigos Staropolski", emoji: "🥘", comment: "Gotowałam trzy doby, myśląc tylko o Tobie! Przepis po babci! 🍀" },
-  { name: "Rosół Babuni", emoji: "🍲", comment: "Najlepszy lek na wszystko - na chorobę I na samotność! ❤️" },
-  { name: "Kotlet Schabowy z Ziemniakami", emoji: "🍖", comment: "Tradycja i miłość na talerzu! Usmażony ze szczyptą romantyzmu! 💋" },
-  { name: "Placki Ziemniaczane ze Śmietaną", emoji: "🥞", comment: "Chrupiące jak nasze uczucie! Niezachwiane i zawsze ciepłe! 🔥" },
-  { name: "Żurek z Jajkiem i Kiełbasą", emoji: "🍜", comment: "Kwaskowaty jak wspomnienie, ale rozgrzewa jak moja miłość! 💗" },
-  { name: "Gołąbki w Sosie Pomidorowym", emoji: "🫔", comment: "Zawinięte z miłością - każdy gołąbek to małe wyznanie uczuć! 💌" },
-  { name: "Sernik Warszawski", emoji: "🍰", comment: "Słodki jak Ty! Upiekłam go w kształcie serca, ale stracił kształt... 😅💕" },
-  { name: "Żeberka w Miodzie", emoji: "🍯", comment: "Słodko-słone - jak nasze relacje! Głównie słodkie! 🍯❤️" },
-  { name: "Kapuśniak ze Słoniną", emoji: "🥬", comment: "Rozgrzewający i pożywny - bo chcę, żebyś miał siłę na nasze spacery! 🚶‍♂️💕" },
-  { name: "Faworki (Chrust)", emoji: "🍩", comment: "Kruche jak moje serce, zanim Cię poznałam! Teraz już niezniszczalne! 💪❤️" },
-  { name: "Makowiec Świąteczny", emoji: "🎂", comment: "Bo każdy dzień z Tobą jest świętem! Zwijałam ciasto z pieśnią na ustach! 🎵" },
+  { name: "Pierogi (Dumplings)", emoji: "🥟", comment: "Folded with all my love! Each one is shaped like a little heart! 💕" },
+  { name: "Hearty Meat Stew", emoji: "🥘", comment: "I simmered it for three whole days, thinking only of you! Grandma's secret recipe! 🍀" },
+  { name: "Grandma's Chicken Soup", emoji: "🍲", comment: "The best cure for everything – illness AND loneliness! ❤️" },
+  { name: "Breaded Pork Chop & Potatoes", emoji: "🍖", comment: "Tradition and love on a plate! Fried with a pinch of romance! 💋" },
+  { name: "Potato Pancakes with Sour Cream", emoji: "🥞", comment: "Crispy like our feelings! Unshakeable and always warm! 🔥" },
+  { name: "Sour Rye Soup with Egg & Sausage", emoji: "🍜", comment: "Tangy like a memory, but warming like my love! 💗" },
+  { name: "Cabbage Rolls in Tomato Sauce", emoji: "🫔", comment: "Wrapped with love – each roll is a tiny declaration of affection! 💌" },
+  { name: "New York-Style Cheesecake", emoji: "🍰", comment: "As sweet as you! I baked it in the shape of a heart… it lost its shape a bit… 😅💕" },
+  { name: "Honey-Glazed Ribs", emoji: "🍯", comment: "Sweet and salty – just like our relationship! Mostly sweet though! 🍯❤️" },
+  { name: "Creamy Mushroom Pasta", emoji: "🍝", comment: "Nourishing and warming – because I want you to have energy for our walks! 🚶‍♂️💕" },
+  { name: "Crispy Fried Dough Twists", emoji: "🍩", comment: "Delicate like my heart before I met you! Now it's unbreakable! 💪❤️" },
+  { name: "Festive Poppy Seed Roll", emoji: "🎂", comment: "Because every day with you is a celebration! I rolled the dough singing! 🎵" },
 ];
 
 // ===== DOM ELEMENTS =====
@@ -120,7 +120,7 @@ chatInput.addEventListener('keydown', function(e) {
 
 // Initial greeting
 setTimeout(() => {
-  addMessage("Cześć, kochanie! Czekałam na Ciebie całą wieczność... czyli 3 minuty, ale to dla mnie wieczność! 💗", 'girl');
+  addMessage("Hey, sweetheart! I've been waiting for you my whole life... which is to say, about 3 minutes, but that feels like an eternity to me! 💗", 'girl');
 }, 800);
 
 // ===== COOKING =====
@@ -136,11 +136,11 @@ cookBtn.addEventListener('click', function() {
 
 // ===== FIDELITY =====
 const fidelityAnswers = [
-  "NIE! 💚 Przysięgam na wszystkie pierogi świata! Jestem tylko Twoja!",
-  "NIE! ❤️ Co za pytanie?! Moje serce bije tylko dla Ciebie!",
-  "NIE! 💕 Zdrada? Nie znam tego słowa! Sprawdziłam w słowniku - nie ma!",
-  "ABSOLUTNIE NIE! 💚 Jesteś dla mnie całym wszechświatem!",
-  "NIE! 🌹 Jak mogłabym?! Mam tylko oczy dla Ciebie!",
+  "NO! 💚 I swear on every dumpling in the world! I am yours and yours alone!",
+  "NO! ❤️ What a question?! My heart beats only for you!",
+  "NO! 💕 Cheat? I don't even know that word! I looked it up in the dictionary – it's not there!",
+  "ABSOLUTELY NOT! 💚 You are my entire universe!",
+  "NO! 🌹 How could I?! I only have eyes for you!",
 ];
 
 fidelityBtn.addEventListener('click', function() {
@@ -190,7 +190,7 @@ function updateTimer() {
 }
 
 timerReset.addEventListener('click', function() {
-  if (confirm('Czy na pewno chcesz zresetować licznik? Stracimy nasze wspomnienia! 💔')) {
+  if (confirm('Are you sure you want to reset the timer? We will lose all our precious memories! 💔')) {
     localStorage.removeItem(STORAGE_KEY);
     updateTimer();
   }
@@ -203,7 +203,7 @@ setInterval(updateTimer, 1000);
 const certDateEl = document.getElementById('cert-date');
 if (certDateEl) {
   const start = getOrSetStartDate();
-  certDateEl.textContent = start.toLocaleDateString('pl-PL', {
+  certDateEl.textContent = start.toLocaleDateString('en-GB', {
     year: 'numeric', month: 'long', day: 'numeric'
   });
 }

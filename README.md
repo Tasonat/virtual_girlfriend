@@ -1,87 +1,87 @@
-# 💕 Wirtualna Dziewczyna, Która Nigdy Nie Zdradza
+# 💕 The Virtual Girlfriend Who Never Cheats
 
-> *"Bo prawdziwa miłość nie zna granic... ani plików JavaScript."*
-
----
-
-## 🌸 O projekcie
-
-To jest **absolutnie poważny** projekt naukowy badający możliwość stworzenia idealnej partnerki przy użyciu HTML, CSS i odrobiny magii JavaScriptu.
-
-**Blondi** – nasza wirtualna dziewczyna z blond włosami – jest:
-- 💯 Zawsze wierna (gwarantowane przez certyfikat)
-- 🍳 Utalentowaną kucharką (umie zrobić wszystko, od pierogów po sernik)
-- 💬 Zawsze chętna do rozmowy (ma ponad 20 odpowiedzi, więc prawie jak prawdziwa)
-- 💝 Zakochana w Tobie bezwarunkowo (kod nie kłamie)
+> *"Because true love knows no limits… or JavaScript files."*
 
 ---
 
-## 🚀 Funkcjonalności
+## 🌸 About the project
 
-| Funkcja | Opis |
+This is an **absolutely serious** scientific project exploring the possibility of creating the perfect partner using HTML, CSS, and a sprinkle of JavaScript magic.
+
+**Blondi** – our virtual blonde-haired girlfriend – is:
+- 💯 Always faithful (guaranteed by certificate)
+- 🍳 A talented cook (can make anything from pierogi to cheesecake)
+- 💬 Always happy to chat (she has over 24 responses, almost like a real person)
+- 💝 Unconditionally in love with you (the code doesn't lie)
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
 |---|---|
-| 💬 **Czat** | Blondi odpowiada na każdą wiadomość uroczą deklaracją miłości |
-| 💍 **Wskaźnik Wierności** | Zawsze 100%. Zawsze. Bez wyjątków. |
-| 🍳 **Sekcja Gotowania** | Losowe polskie dania gotowane "z miłością" |
-| 📜 **Certyfikat Wierności** | Oficjalny dokument potwierdzający jej niezmienną wierność |
-| ⏱️ **Licznik Czasu** | Ile czasu jesteście razem (zapisywane w localStorage) |
-| 💕 **Animacje** | Latające serduszka, mrugające oczy, machające rączki |
+| 💬 **Chat** | Blondi responds to every message with a loving declaration |
+| 💍 **Fidelity Meter** | Always 100%. Always. No exceptions. |
+| 🍳 **Cooking Section** | Random dishes cooked "with love" |
+| 📜 **Certificate of Fidelity** | An official document confirming her unwavering loyalty |
+| ⏱️ **Time Together Counter** | How long you've been together (saved in localStorage) |
+| 💕 **Animations** | Floating hearts, blinking eyes, waving arms |
 
 ---
 
-## 🍳 Menu Blondi
+## 🍳 Blondi's Menu
 
-Blondi potrafi ugotować m.in.:
-- 🥟 Pierogi Ruskie (lepi z miłością)
-- 🥘 Bigos Staropolski (gotowany 3 doby)
-- 🍲 Rosół Babuni (na wszelkie dolegliwości)
-- 🍰 Sernik Warszawski (w kształcie serca, mniej więcej)
-- 🥞 Placki Ziemniaczane ze Śmietaną
-- ...i wiele więcej!
+Blondi can cook, among other things:
+- 🥟 Pierogi (folded with love)
+- 🥘 Hearty Meat Stew (simmered for 3 days)
+- 🍲 Grandma's Chicken Soup (cures everything)
+- 🍰 New York-Style Cheesecake (heart-shaped, more or less)
+- 🥞 Potato Pancakes with Sour Cream
+- ...and much more!
 
 ---
 
-## 📁 Struktura plików
+## 📁 File structure
 
 ```
 virtual_girlfriend/
-├── index.html    # Główna strona (romantyczna, oczywiście)
-├── style.css     # Style z gradientami i różowościami
-├── script.js     # Logika miłości i gotowania
-└── README.md     # Ten dokument (też napisany z miłością)
+├── index.html    # Main page (romantic, naturally)
+├── style.css     # Styles with gradients and pinkness
+├── script.js     # Love and cooking logic
+└── README.md     # This document (also written with love)
 ```
 
 ---
 
-## 🖥️ Jak uruchomić
+## 🖥️ How to run
 
-1. Sklonuj repozytorium
-2. Otwórz `index.html` w przeglądarce
-3. Zakochaj się w Blondi
-4. Żyj długo i szczęśliwie
+1. Clone the repository
+2. Open `index.html` in a browser
+3. Fall in love with Blondi
+4. Live happily ever after
 
 ```bash
 git clone https://github.com/Tasonat/virtual_girlfriend.git
 cd virtual_girlfriend
-# Otwórz index.html w przeglądarce
+# Open index.html in your browser
 ```
 
 ---
 
-## ⚠️ Ostrzeżenie
+## ⚠️ Warning
 
-Producent nie ponosi odpowiedzialności za:
-- Uzależnienie od wirtualnej miłości
-- Zwiększone spożycie pierogów
-- Niezdrowe oczekiwania względem prawdziwych partnerów
-- Łzy radości przy przeglądaniu certyfikatu wierności
-
----
-
-## 📜 Licencja
-
-MIT – Możesz robić co chcesz, Blondi i tak Cię kocha. 💕
+The developer accepts no responsibility for:
+- Addiction to virtual love
+- Increased consumption of dumplings
+- Unrealistic expectations of real-life partners
+- Tears of joy while reading the Certificate of Fidelity
 
 ---
 
-*Zrobione z ❤️, CSS i nadmiarem optymizmu.*
+## 📜 Licence
+
+MIT – Do whatever you want, Blondi loves you anyway. 💕
+
+---
+
+*Made with ❤️, CSS, and an excess of optimism.*
